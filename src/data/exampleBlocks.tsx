@@ -183,9 +183,7 @@ const exampleBlocks: ReactElement[] = [
     <StackLayout key="layout-paragraph-01" maxWidth="xl">
         <Block id="block-paragraph-01" padding="sm">
             <EditableParagraph id="para-intro-1" blockId="block-paragraph-01">
-                This is an editable paragraph. Click on it to start editing the text.
-                You can modify the content directly in-place. The changes are tracked
-                and can be saved to the backend.
+                This is an editable paragraph. Click on it to start editing the text. You can modify the content directly in-place. The changes are tracked and can be saved to the backend.  <InlineScrubbleNumber />
             </EditableParagraph>
         </Block>
     </StackLayout>,
