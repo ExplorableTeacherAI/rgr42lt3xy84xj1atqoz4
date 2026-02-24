@@ -215,7 +215,9 @@ const exampleBlocks: ReactElement[] = [
         <Block id="block-paragraph-03" padding="sm">
             <EditableParagraph id="para-inline-intro" blockId="block-paragraph-03">
                 Inline components allow interactive elements within text. Below are
-                examples of scrubbable numbers that can be adjusted by dragging.
+                examples of scrubbable numbers that can be adjusted by dragging.{" "}
+                {"  "}
+                <InlineClozeInput varName="test" correctAnswer="answer" placeholder="???" color="#3B82F6" bgColor="rgba(59, 130, 246, 0.35)" caseSensitive={false} />
             </EditableParagraph>
         </Block>
     </StackLayout>,
