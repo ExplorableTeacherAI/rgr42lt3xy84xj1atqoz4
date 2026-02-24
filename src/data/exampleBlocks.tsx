@@ -193,7 +193,9 @@ const exampleBlocks: ReactElement[] = [
             <EditableParagraph id="para-intro-2" blockId="block-paragraph-02">
                 Here's another paragraph to demonstrate that multiple paragraphs
                 can be edited independently. Each paragraph maintains its own state
-                and editing session.
+                and editing session.{" "}
+                {"  "}
+                <InlineScrubbleNumber defaultValue={1} min={0} max={100} step={1} varName="var_inlineScrubbleNumber-1771907769795" color="#00897B" />
             </EditableParagraph>
         </Block>
     </StackLayout>,
